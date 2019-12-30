@@ -1,0 +1,19 @@
+-web 구축 파일인 html에 관한 tag와 문법-
+
+1. <!doctype html>은 모든 웹 페이지 구축 때 가장 상단에 위치시킴
+2. <html>은 문단 상단과 가장 하단(</html>)에 위치시킴
+3. <head> 와 <body>는 제목과 본문을 구분시켜주며, <head>는 <title> 과 <meta> tag를 포함시킴
+	<meta charset="utf-8">은 web같은 표현방식을 나타내도록 지정함
+	<body> 안에는 <h1>, <h2> ... 등등의 소제목 tag와 각각의 제목을 디자인 할 수 있는 <strong>(글꼴굵게), <u>(밑줄), 
+	<br>(줄바꿈) tag 등이 존재
+	
+4. link 기능을 위해 추가할 수 있는 tag는 <a href="">, </a>
+	참조) <a href="" target="_blank"> 는 링크 클릭시 해당 웹 페이지를 새 창으로 open시켜주는 기능이며, 
+	      <	a href="" target="_blank" title="">은 링크에 마우스를 갖다대면 해당 웹 페이지의 주제를 툴팁으로 보여주는 기능
+
+5. list 기능을 위해 추가할 수 있는 tag는 <li>. <li> tag에는 정해진 규칙하나가 있는데, <ul>, <ol> tag가 상단과 하단에 꼭 쓰여
+   진다는 사실. ul(unordered list)는 list 순서는 유지시켜 주나, 숫자는 표기하지 않는 방식이며, ol(ordered list)는 list 순서와 
+   함께 숫자도 표기됨
+6. <p> tag는 문단을 의미하며, 줄바뀜도 동반됨. <br>은 단순 줄바꿈 기능뿐이나 <p>는 문단을 구분하면서 문단에 대한 디자인도 가능
+   ex) <p style media="margin-top:45px;"> 
+7. 사진을 삽입하고 싶을 땐 <img src="이미지 주소"> 사용. 출처는 저작권이 필요없는 대표적 site(unsplash.com) 이용
